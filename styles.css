@@ -1,0 +1,343 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Barra-topo */
+.espaçamento-aplicação {
+  width: 100%;
+  max-width: 414px; 
+  height: 1060px;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+
+.topo {
+  background-color: #CF2B2B;
+  height: 90px;
+  width: 414px;
+  position: fixed;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.driven-eats {
+  width: 210px;
+  height: 42px;
+  color: #FFFFFF;
+  font-family: Righteous;
+  font-size: 40px;
+  margin-left: 21px;
+  margin-top: 12px;
+}
+
+.tempo-entrega {
+  width: 210px;
+  height: 36px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: small;
+  margin-left: 21px;
+}
+
+/* categoria-1 */
+.seu-prato {
+  width: 64px;
+  height: 64px;
+}
+
+.categoria1 {
+  display: flex;
+}
+
+.categoria1 button, .categoria2 button, .categoria3 button {
+  margin-bottom: 4px;
+}
+
+.categoria-1 p {
+  padding-top: 110px;
+  width: 256px;
+  height: 64px;
+  margin-left: 21px;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 32.28px;
+  letter-spacing: 1.8px;
+  color: #333333;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+button img {
+  border-radius: 4px;
+}
+
+.prato1, .prato2, .prato3, .bebida1, .bebida2, .bebida3, .sobremesa1, .sobremesa2, .sobremesa3 {
+  background-color: #FFFFFF;
+  width: 172px;
+  height: 216px;
+  margin-top: -25px;
+  border-radius: 8px;
+  margin-left: 18px;
+  border: 5px solid;
+  border-color: #FFFFFF;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.prato1:hover, .prato2:hover, .prato3:hover, .bebida1:hover, .bebida2:hover, .bebida3:hover, .sobremesa1:hover, .sobremesa2:hover, .sobremesa3:hover {
+  transform: scale(1.05);
+}
+
+.prato1 img, .prato2 img, .prato3 img, .bebida1 img, .bebida2 img, .bebida3 img, .sobremesa1 img, .sobremesa2 img, .sobremesa3 img {
+  margin-top: 15px;
+  width: 144px;
+  height: 87px;
+}
+
+.nome {
+  font-family: Roboto;
+  color: #333333;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-top: 7px;
+}
+
+.descrição {
+  font-family: Roboto;
+  color: #A6A6A6;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 17.58px;
+  margin-top: 5px;
+}
+
+.preço {
+  font-family: Roboto;
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-top: 9px;
+}
+
+/* Categoria 2 */
+.categoria2 {
+  display: flex;
+}
+
+.categoria-2 p {
+  padding-top: 110px;
+  width: 256px;
+  height: 64px;
+  margin-top: -70px;
+  margin-left: 21px;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 32.28px;
+  letter-spacing: 1.8px;
+  color: #333333;
+}
+
+/* Categoria 3 */
+.categoria3 {
+  display: flex;
+}
+
+.categoria-3 p {
+  padding-top: 110px;
+  width: 256px;
+  height: 64px;
+  margin-left: 21px;
+  margin-top: -72px;
+  font-family: Righteous;
+  font-weight: 400;
+  line-height: 32.28px;
+  letter-spacing: 1.8px;
+  color: #333333;
+}
+
+/* Barra inferior */
+.barra-inferior {
+  display: flex;
+  justify-content: end;
+  background-color: #FFFFFF;
+  width: 414px; 
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.barra-cinza p {
+  border-radius: 8px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23.44px;
+  letter-spacing: 1.8%;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.barra-cinza {
+  background-color: #CBCBCB; 
+  border-radius: 50px; 
+  width: 100%; 
+  height: 40px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  margin: 10px;
+}
+
+/* Estilos do Modal */
+.modal {
+  display: none; /* Inicialmente oculto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo levemente acinzentada */
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Certifique-se de que está acima de outros elementos */
+}
+
+.modal-conteudo {
+  background-color: #50D074;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 256px;
+  height: 256px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-conteudo h2 {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25.78px;
+}
+
+.modal-conteudo p {
+  font-family: Roboto;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25.78px;
+  letter-spacing: 1.8%;
+  color: #FFFFFF;
+  margin-bottom: 4px; /* Espaçamento entre os elementos */
+}
+
+/* Estilos do botão "Cancelar" */
+.modal-conteudo button {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25.78px;
+  letter-spacing: 1.8%;
+  color: #FFFFFF;
+  background-color: transparent; /* Botão sem fundo */
+  border: none;
+  cursor: pointer;
+}
+
+
+.confirma-pedido {
+  display: block;
+  background-color: #FFFFFF;
+  color: #50D074;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 100px;
+}
